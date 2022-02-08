@@ -74,6 +74,7 @@ ul {
   text-transform: uppercase;
 }
 .hero-button {
+  font-family: inherit;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-weight: 700;
@@ -165,7 +166,8 @@ address {
 }
 /* PORTFOLIO */
 /* Project section */
-button {
+.project-section-nav button {
+  font-family: inherit;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
